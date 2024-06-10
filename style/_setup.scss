@@ -1,0 +1,58 @@
+// אתחול
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// ----------------------------------------------------------------------
+
+// משתנים שחוזרים על עצמם במשך הפרויקט
+$headerSize: 2rem;
+$textSize: 1.1rem;
+$fontFamily: "arial";
+$fontBold: bold;
+$bgc: lightgreen;
+$textColor: rgba(104, 61, 22);
+$headerColor: rgb(90, 22, 87);
+
+// עימוד וגופן לכל הדף
+section {
+    display: flex;
+    flex-direction: column;
+    font-family: $fontFamily;
+}
+
+// ----------------------------------------------------------------------
+
+// כפתור לחזור חזרה למעלה
+
+.upL {
+    .up {
+        width: 3vw;
+        position: fixed;
+        right: 2.5vw;
+        bottom: 4vh;
+        border-radius: 15%;
+    }
+}
+
+// משמש לעיצוב הכרטיס פרויקט
+%box {
+    background-color: $bgc;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 20px;
+    box-shadow: 5px 5px 5px #c5dbca;
+    border-top: 2px solid #0a7020;
+    border-left: 2px solid #0a7020;
+    overflow: hidden;
+    padding: 0;
+}
+
+// ----------------------------------------------------------------------
+
+// משתנים לרספונסיביות
+$desktopBreak: 992px;
+$tabletBreak: 768px;
+$mobileBreak: 600px;

@@ -1,0 +1,52 @@
+// מצב מחשב
+@media(min-width:$desktopBreak) {
+
+    // היפוך צורה של הטופס
+    .knowledge,
+    .findMe {
+        width: 100%;
+    }
+
+    .form-control-radio {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+// ----------------------------------------------------------------------
+
+// מצב טאבלט
+@media(min-width:$tabletBreak) {
+
+    // היפוך צורה של הטופס
+    .knowledge,
+    .findMe {
+        width: 100%;
+    }
+
+    .form-control-radio {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+}
+
+// ----------------------------------------------------------------------
+
+// מצב מובייל
+@media(max-width:$mobileBreak) {
+
+    // היפוך צורה של הטופס
+    .knowledge,
+    .findMe {
+        width: 100%;
+    }
+
+    .form-control-radio {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

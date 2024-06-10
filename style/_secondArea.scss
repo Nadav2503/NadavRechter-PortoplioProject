@@ -1,0 +1,49 @@
+#secondArea {
+    background-color: $bgc;
+    justify-content: center;
+    align-items: center;
+
+    // לספר על עצמי
+    .secondArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+        margin-top: 15vh;
+
+        img {
+            width: 40%;
+            height: 25%;
+            border-radius: 50%;
+            margin-bottom: 2vh;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 2;
+            color: $textColor;
+            width: 70%;
+
+            span {
+                font-weight: $fontBold;
+                font-size: 1.5rem;
+            }
+        }
+
+        // ----------------------------------------------------------------------
+
+        // קישור להורדת קורות חיים
+        a {
+            text-align: center;
+            text-decoration: none;
+            border: 3px groove black;
+            border-radius: 15px;
+            color: black;
+            background-color: aliceblue;
+            font-size: $textSize;
+            margin-bottom: 20px;
+            padding: 5px
+        }
+    }
+}
